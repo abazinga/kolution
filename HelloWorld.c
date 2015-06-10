@@ -2,10 +2,14 @@
 * @Author: wcg
 * @Date:   2015-06-10 09:23:23
 * @Last Modified by:   anchen
-* @Last Modified time: 2015-06-10 09:25:00
+* @Last Modified time: 2015-06-10 10:10:27
 */
 
 #include <stdio.h>
+
+int getCounter(){
+    return 1;
+}
 
 int main() {
 
