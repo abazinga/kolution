@@ -2,7 +2,11 @@
 * @Author: wcg
 * @Date:   2015-06-10 10:10:44
 * @Last Modified by:   anchen
-* @Last Modified time: 2015-06-10 10:42:04
+<<<<<<< HEAD
+* @Last Modified time: 2015-06-10 11:16:31
+=======
+* @Last Modified time: 2015-06-10 10:59:36
+>>>>>>> iss1
 */
 
 #include <stdio.h>
@@ -22,5 +26,11 @@ int getAll(){
 
 // This is for the change in hotfix
 int hotfix(){
+    printf("conlict made in iss1 branch")
+    return 10;
+}
+
+//fix iss1
+int fix（）{
     return 1;
 }
