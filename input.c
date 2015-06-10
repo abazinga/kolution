@@ -2,7 +2,7 @@
 * @Author: wcg
 * @Date:   2015-06-10 10:10:44
 * @Last Modified by:   anchen
-* @Last Modified time: 2015-06-10 10:37:03
+* @Last Modified time: 2015-06-10 10:59:36
 */
 
 #include <stdio.h>
@@ -17,7 +17,8 @@ string getName(){
 
 // This is for the change in master
 int getAll(){
-    return 100;
+    printf("conlict made in iss1 branch")
+    return 10;
 }
 
 //fix iss1
